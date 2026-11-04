@@ -1,7 +1,10 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    Scanner sc = new Scanner(System.in);
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
     ArrayList<String> cadastrosSubstanciaNome = new ArrayList<>();
     ArrayList<Double> cadastroSubstanciaQuantidade = new ArrayList<>();
@@ -96,7 +99,7 @@ void main() {
     System.out.println("Lucro total: R$ " + valorLucro);
     System.out.println("Valor final do pedido: R$ " + valorFinal);
 
-
+    }
 }
 
 
